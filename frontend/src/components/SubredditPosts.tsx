@@ -8,7 +8,7 @@ export default function SubredditPosts() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/subreddit/${subreddit}/posts`)
+    fetch(`https://the-reddit-mastermind.onrender.com/subreddit/${subreddit}/posts`)
       .then((res) => res.json())
       .then(setPosts);
   }, [subreddit]);
