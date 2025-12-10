@@ -76,6 +76,13 @@ class MultiWeekRequest(BaseModel):
 # Helper DB Functions
 # ------------------------------------------------------------
 
+# Create tables at startup (ONLY if they don't exist)
+@app.on_event("startup")
+def on_startup():
+    print("Checking & creating tables if needed...")
+    Base.metadata.create_all(bind=engine)
+    print("Database ready.")
+
 def get_or_create_user(db: Session, username: str):
     user = db.query(User).filter_by(username=username).first()
     if not user:
