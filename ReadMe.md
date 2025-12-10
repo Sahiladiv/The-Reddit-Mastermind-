@@ -19,4 +19,4 @@ This design provides flexibility, modularity, and realism, enabling more complex
 
 ## Architecture Flow:
 
-**Frontend (React)** -> **Backend (FastAPI)** -> **Planning Engine (Python module using LangChain/LangGraph, Groq API and OpenAI API)** -> **Storage (SQLAlchemy ORM and MySQL)** -> **Push Layer (existing Reddit posting functions)**
+**Frontend (React)** -> **Backend (FastAPI)** -> **Planning Engine (Python module using LangChain/LangGraph, Groq API and OpenAI API)** -> **Storage (SQLAlchemy ORM and PostgreSQL)** -> **Push Layer (existing Reddit posting functions)**
