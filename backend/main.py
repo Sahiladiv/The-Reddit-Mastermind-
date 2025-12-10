@@ -9,7 +9,7 @@ import json
 # DB + Models
 # ----------------------------
 from database import SessionLocal
-from models import User, Subreddit, Post, Comment, Query
+from models import User, Subreddit, Post, Comment, Query, Base
 from sqlalchemy.orm import Session
 
 # ----------------------------
