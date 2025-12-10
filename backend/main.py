@@ -8,7 +8,7 @@ import json
 # ----------------------------
 # DB + Models
 # ----------------------------
-from database import SessionLocal
+from database import SessionLocal, engine
 from models import User, Subreddit, Post, Comment, Query, Base
 from sqlalchemy.orm import Session
 
