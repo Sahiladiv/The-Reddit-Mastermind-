@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "http://the-reddit-mastermind.onrender.com/",
 });
 
 // Types for FastAPI responses
