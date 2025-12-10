@@ -1,0 +1,31 @@
+fastapi
+uvicorn[standard]
+
+sqlalchemy
+pymysql
+mysqlclient
+alembic
+
+pydantic
+python-dotenv
+requests
+jinja2
+pyyaml
+tenacity
+
+# LangChain Core + Providers
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+
+# LangGraph (your conversation simulation engine)
+langgraph
+
+# LLM Providers
+openai
+groq
+
+# Optional utilities (highly recommended)
+tqdm
