@@ -6,7 +6,7 @@ export default function PostView() {
   const [post, setPost] = useState<any>(null);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/post/${id}`)
+    fetch(`https://the-reddit-mastermind.onrender.com/post/${id}`)
       .then(res => res.json())
       .then(setPost);
   }, [id]);
