@@ -1,13 +1,25 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from dotenv import load_dotenv
 
-# Example connection string — update username/password/dbname
-MYSQL_URL = "mysql+pymysql://root:root@localhost:3306/ogtool"
+load_dotenv()
+# Load DATABASE_URL from Render environment variables
+DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL environment variable is not set!")
+
+# Create SQLAlchemy engine for PostgreSQL
 engine = create_engine(
-    MYSQL_URL,
-    echo=True,          # shows SQL in console
+    DATABASE_URL,
+    echo=True,       # optional: logs SQL queries
     future=True
 )
 
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# Session factory
+SessionLocal = sessionmaker(
+    autocommit=False,
+    autoflush=False,
+    bind=engine
+)
