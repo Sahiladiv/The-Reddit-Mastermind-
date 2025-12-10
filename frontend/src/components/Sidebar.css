@@ -1,0 +1,51 @@
+.sidebar {
+  width: 260px;
+  padding: 25px;
+  background: #ffffff;
+  border-right: 1px solid #e5e5e5;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.04);
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* List layout */
+.subreddit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each subreddit item */
+.subreddit-item {
+  padding: 12px 10px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.25s ease;
+  color: #222;
+  border: 1px solid transparent;
+}
+
+/* Hover effects */
+.subreddit-item:hover {
+  background: #f6f7f9;
+  border-color: #dcdcdc;
+  transform: translateX(5px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Active state (optional if you want to highlight current subreddit) */
+.subreddit-item.active {
+  background: #e9f2ff;
+  border-color: #b9d4ff;
+  font-weight: 600;
+}

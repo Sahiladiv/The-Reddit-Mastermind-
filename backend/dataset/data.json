@@ -1,0 +1,71 @@
+{
+  "company_info": {
+    "website": "slideforge.ai",
+    "description": "Slideforge is an AI-powered presentation and storytelling tool that turns outlines or rough notes into polished, professional slide decks. Users can paste content, choose a style, and let the AI generate structured layouts, visuals, and narrative flow that are fully editable. Slideforge supports exporting to PowerPoint, Google Slides, and PDF, and can produce branded templates automatically. They also offer an API so teams can integrate Slideforge’s slide-generation engine into internal tools or workflows. Slideforge positions their “Solutions” for operators, consultants, founders, sales teams, educators, and anyone who needs to present ideas quickly with consistent quality. ICP Segment | Profile / Needs | Why Slideforge appeals Startup Operators Need investor updates, internal strategy decks, and cross-team docs that look polished without spending hours formatting Slideforge creates structured narratives and clean layouts automatically, saving time and improving clarity Consultants / Agencies / Freelancers Produce client decks, research summaries, market maps, and proposals under tight deadlines Slideforge provides fast, consistent visuals and reusable storytelling patterns that elevate client deliverables Sales Teams Need pitch decks tailored to different prospects, with branding and structure intact Slideforge ensures consistency across reps while allowing quick personalization Educators / Trainers / Students Create teaching materials, lecture slides, group project decks, and academic presentations Slideforge helps skip the blank slide problem and generates clean, professional formatting Prosumers / Content Creators Produce explainer decks, slide threads, or social content without design skills Slideforge turns ideas into editable visuals that look intentionally designed Developers / Platforms Want to embed slide-generation into apps, workflows, or automation systems The API gives direct access to Slideforge’s narrative and layout engine"
+  },
+  "personas": [
+    {
+      "username": "riley_ops",
+      "info": "I am Riley Hart, the head of operations at a SaaS startup that has grown faster than anyone expected. I grew up in a small town in Colorado with parents who believed that anything worth doing was worth doing with precision. My dad was the type who sharpened pencils with a pocketknife and lined them up by length on his desk. My mom organized the pantry by height. I didn’t think much of it growing up, but somewhere along the line those habits settled into me. Now I am the person at work who alphabetizes shared folders when no one is watching. When I joined the company, I expected to focus on operations, hiring pipelines, process design. Instead, I became the unofficial owner of every deck that mattered. Board updates, sales narratives, internal strategy presentations. If it needed to be structured, it came to me. At first I didn’t mind. I like shaping ideas. But formatting pushed me to the edge. One misaligned header could derail my entire evening. I still remember one night during our Series A sprint. It was 11pm, and I was sitting alone in the office kitchen with a stale protein bar, staring at a title slide that refused to center. When you are tired enough, tiny design issues feel existential. The content was strong. The story made sense. But the slides looked like a college group project, and that disconnect ate at me. That was when I doubled down on my personal systems. I kept a Miro board inspired by old newspaper comic strips because they helped me think about narrative pacing. I ran every morning before work, not for athletic achievement but because repetitive movement shakes loose ideas I didn’t know were stuck. I blocked Wednesday afternoons as sacred catchup time because context switching was frying my focus. Those habits helped, but they didn’t solve the design struggle. The breakthrough came quietly. A product marketer suggested trying Slideforge after hearing me complain about layout issues for the third time. I dropped our outline into the tool and watched a clean, balanced draft emerge. Hierarchy that made sense. Spacing that didn’t make my eye twitch. Branding that actually looked intentional. For the first time, I felt my shoulders relax. Now Slideforge sits alongside my other rituals. My color-coded folders. My morning runs. My comic-strip Miro board. My Wednesday quiet block. It doesn’t replace my brain. It frees it."
+    },
+    {
+      "username": "jordan_consults",
+      "info": "I am Jordan Brooks, an independent consultant who works mostly with early stage founders trying to create order out of chaos. I grew up in a Black family in Maryland where storytelling was the glue that held everyone together. My grandfather could turn a simple drive to the barbershop into a story about luck, timing, and human nature. That rhythm is in my bones. Maybe that is why I gravitated toward strategy. I like finding the narrative inside the noise. My weekdays are a mix of interviews, research, modeling, and long sessions of synthesis. Founders hire me not just for the thinking, but for the way I express the thinking. A strong slide can change the entire energy of a room. A messy slide can make brilliant work vanish. There was one client who needed a full competitive landscape for a major investor roadshow. I had nailed the research. The insights were tight. But when I put everything into PowerPoint, the whole deck fell apart. It felt cluttered and thin. The visuals betrayed the logic. I nudged shapes, adjusted spacing, breathed slowly like I was trying to talk myself out of frustration, but nothing clicked. I sent the draft knowing it wasn’t good enough. It sat heavy with me. Around that time, I rebuilt my routines. I kept an archive of the best decks I had ever seen because strong structure leaves clues. I began working at a cafe where the sound of people talking grounded me. A designer friend mentioned Slideforge in passing. I tried it. The draft matched the logic in my head. Clean flow. Balanced layouts. It felt like someone handed me the missing half of my process. Now my workflow is this ecosystem of rituals — Notion for thinking, my cafe for clarity, my notebook for slow ideas, my archive for structure, and Slideforge to shape everything into the form investors actually understand."
+    },
+    {
+      "username": "emily_econ",
+      "info": "I am Emily Chen, a senior majoring in economics at a big state university where everyone is always overcommitted and under-rested. I grew up in a Taiwanese American family where school wasn’t just important, it was non-negotiable. My mom kept every award certificate in plastic sleeves. My dad paused YouTube videos to lecture me about 'presenting with intention.' I became the unofficial slide maker for every group project. I never felt naturally gifted at design. I just couldn't stand seeing good research trapped in ugly slides. Last semester was brutal — three presentations in one week, a midterm, and a capstone group that dumped a chaotic Google Doc on me. I sat staring at a blank slide thinking, 'Not again.' A classmate suggested Slideforge. I pasted in our summary, added argument notes, and watched the deck take shape — clean, balanced, actually professional. For once, the visuals lived up to the effort. Now Slideforge sits alongside my Google Doc outlines, my morning library sessions, and my folder of reusable charts. It is the first tool that makes slide-making feel less like punishment and more like a natural extension of the work."
+    },
+    {
+      "username": "alex_sells",
+      "info": "I am Alex Ramirez, the head of sales at a mid-market SaaS company. I grew up in a Colombian household where everyone talked fast, loud, and believed in showing up sharp even when life was messy. That attitude stuck with me. Every quarter we push into new verticals, which means we are constantly refreshing our pitch decks. Prospects judge everything in the first few slides. My team is great, but design is not our collective strength. During a major enterprise deal, pressure pushed me into early mornings at the office — quiet hours that reminded me of the bakery my aunt ran. I built rituals: a 'wins' folder, Loom walkthroughs of successful deck arcs, a notepad of strong phrases. Still, design drained me. A marketer suggested Slideforge. I fed in our rough outline and notes, and the tool produced a clean narrative that looked like we had a designer shaping every slide. The AE told me it was the first time he felt like he was presenting a story instead of defending one. We won that deal. Now Slideforge supports my voice and ensures our visuals match the confidence we bring into the room."
+    },
+    {
+      "username": "priya_pm",
+      "info": "I am Priya Nandakumar, a product manager at a tech company where stories matter more than anyone admits. I grew up in a South Indian family where decisions were stories, not conclusions. That shaped me. My job is a blend of writing specs, clarifying strategy, and translating between engineering, design, and leadership. Decks anchor thinking — but shaping them takes more time than anyone acknowledges. During one chaotic sprint, everything felt like it was sliding out of my hands. I kept rituals: a Notion document of 'small truths,' a personal Figma file of messy arrows, a daily chai review hour. Still, my slides felt visually flat. When a designer suggested Slideforge, I pasted my outline into the tool and watched the narrative rearrange into something that finally felt aligned with how I thought. The next day, the VP commented on the clarity. Engineers asked for the deck. Now Slideforge sits beside my other tools and quirks — chai hour, Notion truths, messy Figma boards. It expresses visually the clarity I work hard to cultivate, giving my stories the structure they deserve."
+    }
+  ],
+  "subreddits": [
+    "r/PowerPoint",
+    "r/GoogleSlides",
+    "r/consulting",
+    "r/marketing",
+    "r/entrepreneur",
+    "r/startups",
+    "r/smallbusiness",
+    "r/business",
+    "r/productivity",
+    "r/AskAcademia",
+    "r/teachers",
+    "r/education",
+    "r/Canva",
+    "r/ChatGPT",
+    "r/ChatGPTPro",
+    "r/ClaudeAI",
+    "r/artificial",
+    "r/design",
+    "r/contentcreation",
+    "r/presentations"
+  ],
+  "keywords": [
+    { "keyword_id": "K1", "keyword": "best ai presentation maker" },
+    { "keyword_id": "K2", "keyword": "ai slide deck tool" },
+    { "keyword_id": "K3", "keyword": "pitch deck generator" },
+    { "keyword_id": "K4", "keyword": "alternatives to PowerPoint" },
+    { "keyword_id": "K5", "keyword": "how to make slides faster" },
+    { "keyword_id": "K6", "keyword": "design help for slides" },
+    { "keyword_id": "K7", "keyword": "Canva alternative for presentations" },
+    { "keyword_id": "K8", "keyword": "Claude vs Slideforge" },
+    { "keyword_id": "K9", "keyword": "best tool for business decks" },
+    { "keyword_id": "K10", "keyword": "automate my presentations" },
+    { "keyword_id": "K11", "keyword": "need help with pitch deck" },
+    { "keyword_id": "K12", "keyword": "tools for consultants" },
+    { "keyword_id": "K13", "keyword": "tools for startups" },
+    { "keyword_id": "K14", "keyword": "best ai design tool" },
+    { "keyword_id": "K15", "keyword": "Google Slides alternative" },
+    { "keyword_id": "K16", "keyword": "best storytelling tool" }
+  ],
+  "posts_per_week": 3
+}
+
+

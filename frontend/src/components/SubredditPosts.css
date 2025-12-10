@@ -1,0 +1,71 @@
+.posts-page {
+  padding: 40px;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+/* Header row */
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.subreddit-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Home button */
+.home-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.home-btn:hover {
+  background: #005fcc;
+  transform: translateY(-2px);
+}
+
+/* Post list */
+.post-list {
+  max-width: 800px;
+}
+
+/* Card style */
+.post-card {
+  background: #fff;
+  padding: 22px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  border-color: #d0d0d0;
+}
+
+.post-card h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.post-card p {
+  margin: 0;
+  color: #444;
+  line-height: 1.45;
+}
