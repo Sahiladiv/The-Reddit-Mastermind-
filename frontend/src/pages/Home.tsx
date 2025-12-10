@@ -7,7 +7,7 @@ export default function Home() {
 
   const generateWeek = async () => {
     setLoading(true);
-    const res = await fetch("http://localhost:8000/generate-week", {
+    const res = await fetch("https://the-reddit-mastermind.onrender.com/generate-week", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({}),
