@@ -5,7 +5,7 @@ export default function Sidebar() {
   const [subreddits, setSubreddits] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/subreddits")
+    fetch("https://the-reddit-mastermind.onrender.com/subreddits")
       .then(res => res.json())
       .then(setSubreddits);
   }, []);
