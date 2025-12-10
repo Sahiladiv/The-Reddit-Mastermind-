@@ -5,7 +5,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Load DATABASE_URL from Render environment variables
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = (
+    os.getenv("DATABASE_URL_INTERNAL") or
+    os.getenv("DATABASE_URL")  # external for local
+)
 
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable is not set!")
